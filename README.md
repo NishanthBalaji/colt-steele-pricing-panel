@@ -1,2 +1,4 @@
 # colt-steele-pricing-panel
 Pricing panel project
+
+This project involves creating a responsive pricing table using HTML and CSS, focusing on a mobile-first approach. The design features three distinct pricing plans: Personal, Small Team, and Enterprise, each with unique features and pricing. The layout will be built using Flexbox to ensure a flexible and adaptive structure that adjusts seamlessly across different screen sizes. Emphasis will be placed on clean, modern aesthetics, and user-friendly navigation. The implementation will ensure that the pricing table is accessible and looks great on both mobile devices and larger screens.
