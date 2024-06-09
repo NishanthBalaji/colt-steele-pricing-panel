@@ -168,6 +168,7 @@ body {
     text-align: center;
     width: 100%;
     padding-bottom: 6%;
+    /* border: 1px solid black; */
 }
 
 .pricing-features {
@@ -238,4 +239,53 @@ body {
 
 .is-featured:hover {
     background-color: #1a7bcf;
+}
+
+@media (min-width:900px) {
+    .panel {
+        flex-direction: row;
+        /* align-items: flex-start;
+        justify-content: space-evenly; */
+        justify-content: flex-start;
+        width: max-content;
+        /* flex: 1; */
+        border-radius: 20px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        height: 550px;
+    }
+
+    .pricing-plan {
+        max-width: 300px;
+        padding-bottom: 0;
+        height: 550px;
+
+
+    }
+
+    img {
+        width: 200px;
+        /* height: 200px; */
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .pricing-table {
+        align-items: stretch;
+        justify-content: space-evenly;
+    }
+
+    .pricing-features-item {
+        inline-size: 200px;
+        text-wrap: wrap;
+    }
+
+    .pricing-header {
+        width: 200px;
+    }
+
+    .plan1 {
+        border-right: 0.2px solid #e1f1ff;
+    }
 }
